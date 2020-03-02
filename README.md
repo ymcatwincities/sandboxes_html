@@ -124,5 +124,5 @@ Structure:
 
 - [MAJOR] update `src/data.json` with the actual content;
 - [MINOR] update `src/external.png` with the actual external link icon;
-- [MINOR] automate removing of `main.js` from the build artifact `dist/index.html`;
+- [MINOR] automate removing of `main.js` from the build artifact `dist/index.html`.
 
