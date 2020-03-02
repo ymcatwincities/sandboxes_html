@@ -4,7 +4,7 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const ManifestPlugin = require('webpack-manifest-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const ImageminPlugin = require('imagemin-webpack-plugin').default;
-const CopyPlugin = require('copy-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 const path = require('path');
 const common = require('./webpack.common');
@@ -37,8 +37,8 @@ module.exports = merge(common, {
       }
     }),
     new ImageminPlugin({}),
-    new CopyPlugin([
-      { from: 'src/assets/carnation-custom-700.png', to: 'og_image.png' },
+    new CopyWebpackPlugin([
+      { from: 'src/assets/carnation-custom-700.jpg', to: 'og_image.jpg' },
     ]),
   ],
   module: {
