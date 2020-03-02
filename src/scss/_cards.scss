@@ -105,7 +105,7 @@
 }
 
 .sandbox-card-preview-link {
-  background-color: $red;
+  background-color: $red-dimmed;
   color: $white;
   display: block;
   text-align: center;
@@ -122,9 +122,12 @@
     font-size: 18px;
   }
 
+  .sandbox-card:hover & {
+    background-color: $red;
+  }
+
   &:hover {
-    //background-color: $red-dimmed;
-    color: white;
+    color: $white;
   }
 
   &:focus {
