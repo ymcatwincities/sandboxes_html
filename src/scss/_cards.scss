@@ -1,0 +1,174 @@
+
+.sandbox-cards {
+  margin-bottom: 10px;
+
+  @include media-breakpoint-up(sm) {
+    margin-bottom: 20px;
+  }
+
+  @include media-breakpoint-up(lg) {
+    margin-bottom: 30px;
+  }
+}
+
+.sandbox-card {
+  @extend .noselect;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  position: relative;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.25);
+  transition: margin-bottom $transition-time, transform $transition-time;
+
+  @include media-breakpoint-up(sm) {
+    margin-bottom: 20px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.25);
+
+    &:hover {
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+      transform: scale(1.05);
+    }
+  }
+
+  @include media-breakpoint-up(lg) {
+    margin-bottom: 30px;
+  }
+}
+
+.sandbox-card-header {
+  height: 0;
+  position: relative;
+  padding-bottom: 50%;
+  overflow: hidden;
+  border-top: 5px solid $red;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+  &:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.15);
+  }
+}
+
+.sandbox-card-title {
+  color: $black;
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 5px 0;
+  transition: margin $transition-time, font-size $transition-time;
+
+  @include media-breakpoint-up(sm) {
+    margin: 10px 0;
+  }
+
+  @include media-breakpoint-up(lg) {
+    font-size: 24px;
+    margin: 15px 0;
+  }
+}
+
+.sandbox-card-body {
+  padding: 0 5px;
+  flex: 1 0 auto;
+
+  @include media-breakpoint-up(sm) {
+    padding: 0 10px;
+  }
+
+  @include media-breakpoint-up(lg) {
+    padding: 0 15px;
+  }
+}
+
+.sandbox-card-description {
+  font-size: 10px;
+  line-height: 1.5;
+  margin-bottom: 5px;
+  transition: margin-bottom $transition-time;
+
+  @include media-breakpoint-up(sm) {
+    margin-bottom: 10px;
+  }
+
+  @include media-breakpoint-up(lg) {
+    font-size: 12px;
+    margin-bottom: 15px;
+  }
+}
+
+.sandbox-card-preview-link {
+  background-color: $red;
+  color: $white;
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.5;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  transition: background-color $transition-time, font-size $transition-time;
+
+  @include media-breakpoint-up(lg) {
+    font-size: 18px;
+  }
+
+  &:hover {
+    //background-color: $red-dimmed;
+    color: white;
+  }
+
+  &:focus {
+    box-shadow: 0 0 6px black;
+  }
+}
+
+.external-icon {
+  display: inline-block;
+
+  &:after {
+    background: url("assets/external.png") no-repeat center center;
+    background-size: contain;
+    content: "";
+    display: block;
+    height: 18px;
+    width: 18px;
+    transform: translateY(3px);
+  }
+}
+
+
+.sandbox-card-header {
+  #rose-standard & { background-image: url('assets/rose-standard-20.jpg'); }
+  #rose-extended & { background-image: url('assets/rose-extended-20.jpg'); }
+  #rose-custom &   { background-image: url('assets/rose-custom-20.jpg'); }
+
+  #carnation-standard & { background-image: url('assets/carnation-standard-20.jpg'); }
+  #carnation-extended & { background-image: url('assets/carnation-extended-20.jpg'); }
+  #carnation-custom &   { background-image: url('assets/carnation-custom-20.jpg'); }
+
+  #lily-standard & { background-image: url('assets/lily-standard-20.jpg'); }
+  #lily-extended & { background-image: url('assets/lily-extended-20.jpg'); }
+  #lily-custom &   { background-image: url('assets/lily-custom-20.jpg'); }
+
+  #rose-standard &:after { background-image: url('assets/rose-standard-700.jpg'); }
+  #rose-extended &:after { background-image: url('assets/rose-extended-700.jpg'); }
+  #rose-custom &:after   { background-image: url('assets/rose-custom-700.jpg'); }
+
+  #carnation-standard &:after { background-image: url('assets/carnation-standard-700.jpg'); }
+  #carnation-extended &:after { background-image: url('assets/carnation-extended-700.jpg'); }
+  #carnation-custom &:after   { background-image: url('assets/carnation-custom-700.jpg'); }
+
+  #lily-standard &:after { background-image: url('assets/lily-standard-700.jpg'); }
+  #lily-extended &:after { background-image: url('assets/lily-extended-700.jpg'); }
+  #lily-custom &:after   { background-image: url('assets/lily-custom-700.jpg'); }
+}

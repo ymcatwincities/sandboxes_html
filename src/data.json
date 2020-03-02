@@ -1,0 +1,63 @@
+{
+  "title": "Open Y Sandbox",
+  "description": "The sandbox websites let you preview Open Y themes, learn more about the installation versions, and test drive the CMS",
+  "url": "https://sandbox.openy.org/",
+  "header": "Sandbox",
+  "intro": "The following demonstration websites will allow you to preview the different Open Y themes, learn more about the different installation versions, and test drive the Drupal CMS.",
+  "cards": [
+    {
+      "id": "rose-standard",
+      "link": "https://sandbox-rose-std.openy.org/",
+      "title": "Rose: Standard install",
+      "description": "Lorem ipsum dolor sit <br> amet consectetur adipiscing elit. Fusce consectetur tellus et eleifend vitae. Nam congue est ut lobortis convallis, nisi accumsan nunc, non sodales ipsum diam vel lectus."
+    },
+    {
+      "id": "lily-standard",
+      "link": "https://sandbox-lily-std.openy.org/",
+      "title": "Lily: Standard install",
+      "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Fusce consectetur tellus et eleifend vitae. Nam congue est ut lobortis convallis, nisi accumsan nunc, non sodales ipsum diam vel lectus."
+    },
+    {
+      "id": "carnation-standard",
+      "link": "https://sandbox-carnation-std.openy.org/",
+      "title": "Carnation: Standard install",
+      "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Fusce consectetur tellus et eleifend vitae. Nam congue est ut lobortis convallis, nisi accumsan nunc, non sodales ipsum diam vel lectus."
+    },
+    {
+      "id": "rose-extended",
+      "link": "https://sandbox-rose-ext.openy.org/",
+      "title": "Rose: Extended install",
+      "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Fusce consectetur tellus et eleifend vitae. Nam congue est ut lobortis convallis, nisi accumsan nunc, non sodales ipsum diam vel lectus."
+    },
+    {
+      "id": "lily-extended",
+      "link": "https://sandbox-lily-ext.openy.org/",
+      "title": "Lily: Extended install",
+      "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Fusce consectetur tellus et eleifend vitae. Nam congue est ut lobortis convallis, nisi accumsan nunc, non sodales ipsum diam vel lectus."
+    },
+    {
+      "id": "carnation-extended",
+      "link": "https://sandbox-carnation-ext.openy.org/",
+      "title": "Carnation: Extended install",
+      "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Fusce consectetur tellus et eleifend vitae. Nam congue est ut lobortis convallis, nisi accumsan nunc, non sodales ipsum diam vel lectus."
+    },
+    {
+      "id": "rose-custom",
+      "link": "https://sandbox-rose-cus.openy.org/",
+      "title": "Rose: Custom install",
+      "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Fusce consectetur tellus et eleifend vitae. Nam congue est ut lobortis convallis, nisi accumsan nunc, non sodales ipsum diam vel lectus."
+    },
+    {
+      "id": "lily-custom",
+      "link": "https://sandbox-lily-cus.openy.org/",
+      "title": "Lily: Custom install",
+      "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Fusce consectetur tellus et eleifend vitae. Nam congue est ut lobortis convallis, nisi accumsan nunc, non sodales ipsum diam vel lectus."
+    },
+    {
+      "id": "carnation-custom",
+      "link": "https://sandbox-carnation-cus.openy.org/",
+      "title": "Carnation: Custom install",
+      "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Fusce consectetur tellus et eleifend vitae. Nam congue est ut lobortis convallis, nisi accumsan nunc, non sodales ipsum diam vel lectus."
+    }
+  ]
+}
