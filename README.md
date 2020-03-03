@@ -122,5 +122,6 @@ Structure:
 
 ## TODOs
 
+- [NORMAL] improve IE11 rendering;
 - [MINOR] migrate to Gatsby;
 - [MINOR] automate removing of `main.js` from the build artifact `dist/index.html`.
