@@ -26,10 +26,13 @@
 .navbar-brand {
   background: url('assets/logo-full.svg') no-repeat;
   background-size: contain;
+  font-size: 0;
+  line-height: 0;
   padding-top: 25px;
-  width: 85px;
   overflow: hidden;
   position: absolute;
+  text-indent:-9999px;
+  width: 85px;
 
   @include media-breakpoint-up(lg) {
     padding-top: 50px;
