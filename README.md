@@ -42,7 +42,7 @@ capabilities across different installation levels of the platform.
 
 ### Header
 
-The logo and "back to OpenY.org" point to openy.org.
+The logo and "back to OpenY.org" point to https://openy.org/.
 
 The logo is to be taken from openy.org. 
 
@@ -94,14 +94,14 @@ To build production artifacts:
 
 ## Project structure
 
-- `webpack.*.js` - webpack configuration files
-- `src/` - contain all the source files for the project
-   - `index.handlebars` - the root Handlebars file for building `index.html`
-   - `main.scss` - the root SCSS file for `main.css`
-   - `data.json` - contains the page content 
-   - `assets/` - all the images for the project
-   - `partials/` - contain Handlebars component templates
-   - `scss/` - contains SCSS modules
+- `webpack.*.js` - the Webpack configuration files;
+- `src/` - contains all the source files for the project:
+   - `index.handlebars` - the root Handlebars file for building `index.html`;
+   - `main.scss` - the root SCSS file for building `main.css`;
+   - `data.json` - contains the page content;
+   - `assets/` - all the images used in the page;
+   - `partials/` - contains Handlebars component templates;
+   - `scss/` - contains SCSS modules.
 
 ### data.json
 
@@ -110,19 +110,17 @@ The file describes all the content needed to build the static page.
 Structure:
 
 - `title` - the page title, used in meta tags;
-- `description` - the page description, used in meta tags, must not be longer 155 characters;
-- `url` - the URL where this page is gonna be hosted, used in meta tags;
+- `description` - the page description, used in meta tags, must not exceed 155 characters;
+- `url` - the URL where this page is hosted, used in meta tags;
 - `header` - the content header (see the wireframes);
 - `intro` - the intro text (see the wireframes), non-sanitized, can contain HTML markup;
 - `cards` - the array of card objects, used to build the markup for cards:
   - `id` - the card id, used as a HTML `id` attribute, used in CSS;
-  - `link` - a link to the sandbox website, used in the "Preview" link;
-  - `title` - a title for a card, e.g "Rose: Standard install";
+  - `link` - a link to a sandbox website, used in the "Preview" links;
+  - `title` - a card title, e.g "Rose: Standard install";
   - `description` - a card body content, non-sanitized, can contain HTML markup.
 
 ## TODOs
 
-- [MAJOR] update `src/data.json` with the actual content;
-- [MINOR] update `src/external.png` with the actual external link icon;
+- [MINOR] migrate to Gatsby;
 - [MINOR] automate removing of `main.js` from the build artifact `dist/index.html`.
-
