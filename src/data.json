@@ -8,13 +8,13 @@
   "cards": [
     {
       "id": "virtual-y-rose-standard",
-      "link": "http://sandbox-rose-std-virtual-y.openy.org",
+      "link": "https://sandbox-rose-std-virtual-y.openy.org",
       "title": "Rose: Standard Virtual Y install",
       "description": "Virtual Y on Standard-level Open Y offers everything a YMCA Association needs for a comprehensive website. Rose offers sprawling site menu options and high accessibility for blind or low vision users."
     },
     {
       "id": "virtual-y-lily-standard",
-      "link": "http://sandbox-lily-std-virtual-y.openy.org",
+      "link": "https://sandbox-lily-std-virtual-y.openy.org",
       "title": "Lily: Standard Virtual Y install",
       "description": "Virtual Y on Standard-level Open Y offers everything a YMCA Association needs for a comprehensive website. Lily offers bold banner headings and eye-catching tiles to organize child page content."
     },
