@@ -5,13 +5,6 @@
   "url": "https://virtual-y-sandboxes.openy-d9.org/",
   "header": "Virtual Y Sandbox on Drupal 9",
   "intro": "Welcome to the Virtual Y demo site! Compare the three themes currently offered on Open Y and discover the range of capabilities across different installation levels of the platform.",
-  "cards": [
-    {
-      "id": "virtual-y-rose-standard",
-      "link": "https://sandbox-rose-std-virtual-y-d9.openy.org",
-      "title": "Rose: Standard Virtual Y install",
-      "description": "Virtual Y on Standard-level Open Y offers everything a YMCA Association needs for a comprehensive website. Rose offers sprawling site menu options and high accessibility for blind or low vision users."
-    },
     {
       "id": "virtual-y-lily-standard",
       "link": "https://sandbox-lily-std-virtual-y-d9.openy.org",
