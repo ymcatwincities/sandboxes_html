@@ -107,17 +107,18 @@
 }
 
 .sandbox-card-description {
-  font-size: 10px;
+  font-size: 12px;
   line-height: 1.5;
   margin-bottom: 5px;
   transition: margin-bottom $transition-time;
 
   @include media-breakpoint-up(sm) {
+    font-size: 12px;
     margin-bottom: 10px;
   }
 
   @include media-breakpoint-up(lg) {
-    font-size: 12px;
+    font-size: 14px;
     margin-bottom: 15px;
   }
 }
